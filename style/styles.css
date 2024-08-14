@@ -387,6 +387,9 @@ header{
 .bmii-info > h1{
     font-size: 3rem;
     font-weight: 899;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    li
 }
 .bmii-info > p, .bmi-calc > p{
     font-size: 1rem;
@@ -419,6 +422,7 @@ header{
 .bmii-calc > h2{
     font-size: 1.77rem;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 .bmii-calc > form{
     display: grid;
@@ -492,7 +496,7 @@ form > button{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     border-radius: 18.5px;
-    padding: 1px;
+    padding: 17px;
 }
 .trainer{
     max-width: 400px;
@@ -584,7 +588,7 @@ footer{
 }
 .items-column > h2{
     font-size: 1.84rem;
-    font-weight: 700;
+    font-weight: 699;
     padding-bottom: 21px;
 }
 .items-column > ul > li > a{
@@ -601,16 +605,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgba(97, 97, 97, 0.555);
+    border-top: 1.5px solid rgba(97, 97, 97, 0.555);
 }
 .copyright-msg{
     color: var(--primary-description-color);
     font-size: 0.98rem;
 }
-/* Footer section ends  */
-@media screen and (max-width: 1110px) {
+/* Footer section end  */
+/* start responsive part */
+@media screen and (max-width: 1120px) {
     .header-containers{
-        max-width: 892px;
+        max-width: 891px;
     }
     .h-bg{
         max-width: 301px;
@@ -624,7 +629,7 @@ footer{
         left: -50px;
     }
     .header-content{
-        max-width: 570px;
+        max-width: 571px;
     }
     .ex-containers{
         margin-left: 13px;
@@ -653,6 +658,7 @@ footer{
         margin-right: 16px;
     }
 }
+
 @media screen and (max-width: 993px) and (min-width: 577px) {
     .header-containers{
         flex-direction: column;
@@ -796,19 +802,19 @@ footer{
         font-size: 1rem;
     }
     header{
-        margin-bottom: 50px;
+        margin-bottom: 51px;
     }
     .nav-container{
         min-width: calc(100% - 80px);
         gap: 100px;
     }
     .header-containers{
-        margin: 0 13px 0 13px;
+        margin: 0 14px 0 14px;
     }
     .header-content{
         max-width: calc(100% - 17px);
         padding-right: 1px;
-        margin: 0 13px 0 13px;
+        margin: 0 14px 0 13px;
     }
     .header-content > h1{
         width: 400px;
@@ -941,15 +947,15 @@ footer{
         max-width: 100%;
     }
     .height, .weight, .age, .gender{
-        min-width: 60%;
+        min-width: 61%;
     }
     .bmii-calc > form{
-        gap: 10px;
+        gap: 11px;
     }
     .footer{
         flex-direction: column;
-        margin-left: 13px;
-        margin-right: 13px;
+        margin-left: 14px;
+        margin-right: 14px;
         min-width: 300px;
     }
     .footer-in{
@@ -1023,7 +1029,7 @@ footer{
         margin-bottom: 40px;
     }
     .calc-chart-container{
-        margin: 0 13px 0 13px;
+        margin: 0 14px 0 14px;
     }
     .t-info{
         max-width: 425px;
@@ -1036,10 +1042,10 @@ footer{
         line-height: 25px;
     }
     .bmii-container{
-        margin-bottom: 40px;
+        margin-bottom: 41px;
     }
     form > button{
-        height: 40px;
+        height: 41px;
     }
 }
 @media screen and (max-width: 352px) {
@@ -1050,14 +1056,14 @@ footer{
         gap: 45px;
     }
     .header-containers{
-        max-width: 350px;
+        max-width: 351px;
         margin-bottom: 65px;
     }
     .header-content{
         max-width: 100%;
     }
     .header-content > p{
-        line-height: 22px;
+        line-height: 23px;
     }
     .h-bg > div{
         border-radius: 15px;
@@ -1091,7 +1097,7 @@ footer{
     .h-header > p{
         max-width: 80%;
         font-size: 0.9rem;
-        line-height: 20px;
+        line-height: 21px;
     }
     .ex-header{
         max-width: 100%;
@@ -1103,7 +1109,7 @@ footer{
         height: 250px;
     }
     th, td{
-        padding: 13px 14px;
+        padding: 14px 14px;
     }
     td{
         font-size: 0.9rem;
@@ -1127,4 +1133,5 @@ footer{
         font-size: 1rem;
     }
 }
+/* end respnsive part */
 
